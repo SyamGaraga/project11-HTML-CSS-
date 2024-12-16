@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <style>
+            * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.part-1 {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #777;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    margin-left: 2rem;
+
+}
+
+.nav-links a {
+    color:whitesmoke;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 0 1rem;
+    transition: 0.5s;
+}
+
+.nav-links a:hover {
+    color:orangered;
+}
+
+.nav-icons a {
+    margin-left: 1rem;
+    color:rgb(248, 121, 75);
+    text-decoration:none;
+    
+}
+.nav-icons a:hover{
+    color:#03131b
+}
+</style>
+</head>
+<body>
+    <body>
+        <div class="part-1">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo.png" width="75%">
+                </div>
+                <div class="nav-links">
+                    <a href="./index.html">Home</a>
+                    <a href="./about.html">About</a>
+                    <a href="./pages.html">Pages</a>
+                    <a href="./news.html">News</a>
+                    <a href="./contact.html">Contact</a>
+                    <a href="./shop.html">Shop</a>
+                </div>
+                <div class="nav-icons">
+                    <a href="">Cart</a>
+                    <a href="#">search</a>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

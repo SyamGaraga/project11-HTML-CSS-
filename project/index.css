@@ -17,7 +17,7 @@ body {
     background-color: white;
     z-index: 1000;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    background-color: #777;
+    background-color: green;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
@@ -68,7 +68,7 @@ body {
     text-align: center;
     color: white;
     position: relative;
-    height: 60vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -85,6 +85,25 @@ body {
 .part-2 h1 {
     font-size: 2rem;
     margin: 0.5rem 0;
+}
+.part-2 button{
+    width:10%;
+    height:5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:25px;
+    background-color: rgb(240, 209, 194);
+    color:whitesmoke;
+    text-decoration: none;
+}
+.part-2 a{
+    text-decoration: none;
+}
+.part-2 button:hover{
+    background-color: #f57c00;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .part-3 {
@@ -407,7 +426,6 @@ body {
     align-items: center;
     background-color: #ffffff;
     width:100vw;
-    border:2px solid red;
 }
 
 .text-content {
